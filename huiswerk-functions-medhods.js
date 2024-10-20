@@ -1,4 +1,5 @@
 // Functie om de domeinnaam uit een emailadres te halen
+
 function getEmailDomain(email) {
     if (typeof email !== 'string') {
         throw new Error("Input moet een string zijn.");
@@ -20,6 +21,7 @@ try {
 }
 
 // Functie om het type email te bepalen
+
 function typeOfEmail(email) {
     if (typeof email !== 'string') {
         throw new Error("Input moet een string zijn.");
@@ -45,6 +47,7 @@ try {
 }
 
 // Functie om de geldigheid van een emailadres te controleren
+
 function checkEmailValidity(email) {
     if (typeof email !== 'string') {
         throw new Error("Input moet een string zijn.");
